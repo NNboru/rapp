@@ -54,7 +54,7 @@ class List extends Component{
                         swapitem={this.props.swapitem}
                   />
     }
-    console.dir(items)
+    //console.dir(items)
 
 
     return (

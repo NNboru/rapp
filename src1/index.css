@@ -1,0 +1,67 @@
+body{
+    font-family: Helvetica, sans-serif;
+    color:brown;
+}
+h1{
+    text-align: center;
+}
+button{
+    border-radius: 20px;
+}
+input {
+    padding: 6px;
+    border-radius: 10px;
+}
+
+
+#box{
+    margin:auto;
+    width:95vw;
+    min-height:80vh;
+    border:2px solid green;
+    display:grid;
+    grid-auto-flow:column;
+    column-gap: 10px;
+    padding : 4px;
+    box-sizing: border-box;
+    
+}
+.list{
+    display:grid;
+    grid-template-rows: auto 50px;
+    overflow: auto;
+    max-height: 90vh;
+    border:2px solid skyblue;
+}
+.list >div{
+    padding : 4px;
+}
+.item-box{
+    padding:4px;
+    display: grid;
+    row-gap: 10px;
+    align-content: start;
+}
+.item{
+    display:grid;
+    grid-auto-flow:column;
+    column-gap: 2px;
+}
+.msg{
+    font:1em helvetiva;
+    color:maroon;
+    background-color: rgba(9, 146, 255, 0.2);
+    border-radius:20px;
+    grid-column-end: span 30;
+    padding:2px 10px;
+}
+.add-div{
+    align-self: end;
+}
+.add-div > form{
+    display:grid;
+    grid-auto-flow:column;
+}
+
+
+
